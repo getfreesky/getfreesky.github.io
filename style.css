@@ -1,0 +1,47 @@
+body {padding:12px 20px; margin:0; font-family:Tahoma, sans-serif; background-image:url(images/body_bg.jpg);}
+
+a[target="_blank"]:after {
+    content: "";
+    background: url("images/ext-icon.png") no-repeat scroll transparent;
+    display: inline-block;
+    height: 10px;
+    margin: 0px 3px 0px 5px;
+    width: 10px;
+}
+
+#container {background-color:#FFFFFF; padding:6px;}
+
+#header {height:150px; background-image:url(images/header_bg.png);}
+#logo {font-size:30px; font-weight:bold; background:url(images/header.png) no-repeat; height:100px; padding:50px 0 0 30px;}
+#logo a {color:#FFFFFF; text-decoration:none;}
+#slogan {float:right; font-size:16px; font-weight:bold;color:#FFFFFF; padding:60px 30px 0 0;}
+
+#menu {height:40px; background-image:url(images/menu_bg.png); margin-top:5px;}
+#menu ul {margin:0; padding:0;}
+#menu li {list-style:none; float:left; background:url(images/menu_bg.png);}
+#menu a {float:left; height:20px; padding:10px 30px; color:#FFFFFF; font-size:16px; font-weight:bold; text-decoration:none; font-family:Arial, Helvetica, sans-serif;}
+#menu a:hover {background:url(images/menu_border.png);}
+
+#main {float:left; width:100%; margin:5px 0; color: #0D1D2F; font-size:16px; line-height: 1.4em;}
+#main a {color:#1F416B; }
+#main a:hover {color:#640064;}
+#main br {line-height:16px;}
+#main img { max-width: 100%; height: auto; }
+#sidebar {width:20%; float:right; padding:0 10px 30px 30px; background-color: #E5E5F2}
+#sidebar h3 {font-size:20px; font-weight:bold; color:#1F416B; margin:20px 0 5px 0;}
+#sidebar ul {margin:0; padding:0; border-top:1px solid #EFEFF7;}
+#sidebar li {border-bottom:1px solid #EFEFF7;}
+#sidebar li a {color:#3B7FCC;; text-decoration:none; padding:3px; display:block;}
+#sidebar li a:hover {background-color:#EFEFF7;}
+#text {line-height:1.4em; margin-right:24%; padding:10px 30px 30px 20px; background-color: #ECF8FF;}
+#text h1 {font-size:24px; font-weight:bold; color:#1F416B; margin:20px 0 10px 0;}
+#text h2 {font-size:20px; font-weight:bold; color:#1F416B; margin:20px 0 10px 0;}
+#text ol, #text ul {padding:0; margin:8px 0; line-height:36px;}
+#text li {margin-left:40px;}
+#text a {font-weight:bold;}
+
+#footer {height:40px; color:#FFFFFF; font-size:12px; background-image:url(images/footer_bg.png); clear:both;}
+#footer a {color:#FFFFFF;}
+#footer a:hover {color:#D9F0FF;}
+#footer_left {float:left; padding:13px 0 0 30px;}
+#footer_right {float:right; padding:13px 30px 0 0;}
